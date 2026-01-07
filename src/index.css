@@ -1,0 +1,92 @@
+body {
+  background-color: #020303;
+  margin: 0;
+  padding: 0;
+  color: #F4D995;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  color: #F4D995;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #F4D995;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  color: #F4D995;
+  font-size: 13px;
+}
+
+.card-body p {
+  margin: 2px 0;
+}
+
+a {
+  color: #F4D995;
+}
+
+.card {
+  background-color: #4A575D;
+  border: 2px solid #F4D995;
+  margin: 10px;
+}
+
+.card-body {
+  background-color: #4A575D;
+  height: 110px;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.cardTitle {
+  font-weight: bold;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+  max-width: 100%;
+}
+
+.logoPSVita,
+.logoPS3,
+.logoPS4,
+.logoPS5 {
+  margin-top: 30px;
+  width: 120px;
+}
+
+.containerLogoPS {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
